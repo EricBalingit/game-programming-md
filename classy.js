@@ -2,6 +2,7 @@
 
 var classy,
   renderersToReplace = [
+    { pattern: "a", fullName: "anchor" },
     { pattern: "p", fullName: "paragraph" },
     { pattern: "h\\d", fullName: "heading" },
     { pattern: "ul", fullName: "bullet_list" },
