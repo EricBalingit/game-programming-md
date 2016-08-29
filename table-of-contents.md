@@ -1,4 +1,4 @@
-### [Part 1 - Some (but Not All) Things Javascript](#part-1)
+### [Part 1 - Some (but Not All) Things Javascript](#part-1){linkify}
 
 1. [Just the Basics (Beginner)](#chapter-1)  
     1.1. [Varibles, Arrays and Loops](#chapter-1_1)  
