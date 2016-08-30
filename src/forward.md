@@ -19,13 +19,13 @@ helping and encouraging me and one another.  Keep on gaming everyone!
 ### Learning Philosophy
 Out of all of our endeavors, learning is perhaps the most important.  In each
 new subject that we choose to learn about, we all find that we are new,
-unacquainted and out of place at first.  But soon with a few descriptions, some
-examples and experimentation and discovery we begin to harness the skills
-necessary to master the subject at hand.  This is true for all new endeavors
-and as such we are **all beginners** when we start something new.  For me
-personally, attempting to write a book is a new experience, something I have
-never done before.  So the title of this book is fitting for myself as well as
-it may be for you, the reader.
+unacquainted and out of place at first.  But soon, with a few descriptions, some
+examples, experimentation and discovery we begin to harness the skills necessary
+to master the subject at hand.  This is true for all new endeavors and as such
+we are **all beginners** when we start something new.  For me personally,
+attempting to write a book is a new experience, something I have never done
+before.  So the title of this book is fitting for myself as well as it may be
+for you, the reader.
 
 Likewise the learning philosophy in this book
 is for _beginners_ like you and me.  I shall do my best to give as much

@@ -5,6 +5,7 @@
 <br>
 ## Part 1 - Some (but Not All) Things Javascript
 
+<br>
 ### Chapter 1 - Just the Basics (Beginner)
 
 It can be difficult starting out when learning to program.  In this chapter we
