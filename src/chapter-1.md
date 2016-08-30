@@ -19,16 +19,16 @@ written.  And it is also a resource.
 One of the biggest challenges when learning a new subject is how to deal with
 all the new information that gets thrown at you and how to manage and organize
 that information.  As we learn to keep our programs ( the program "documents"
-that we write ) more organized so we can read and edit them more easily we will
-begin to see those documents as _**resources**_ that we can reuse, borrow
+that we write ) more organized, so we can read and edit them more easily, we
+will begin to see those documents as _**resources**_ that we can reuse, borrow
 from, extend and share with others.  Organization is often viewed or treated as
-a lesser goal of managing information, documents or data, but in the context of
-programs as a _resource_, when we consider their value as building blocks for
-other programs, tools for us to use or even as products that we can make a
-living from, then it becomes clear that organization is like a road map when
-you're in the middle of nowhere.  Keeping code orgainzed can enable you to
-prioritize your goals and keep from getting lost as the sizes of your
-programming projects grow.
+a lesser goal of managing information, documents or data, depending on how the
+information is to be handled, but in the context of programs as a _resource_,
+when we consider their value as building blocks for other programs, tools for us
+to use or even as products that we can make a living from, then it becomes clear
+that organization is like a road map when you're in the middle of nowhere.
+ Keeping code orgainzed can enable you to prioritize your goals and keep from
+getting lost as the sizes of your programming projects grow.
 
 After we visit functions we will look at objects as another kind of container.
 Whereas functions are for containing code, objects may be used as a special kind
