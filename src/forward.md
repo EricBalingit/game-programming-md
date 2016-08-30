@@ -55,8 +55,9 @@ on to Game Programming in Part 2, however keep in mind that advanced OOP is
 meant to aid in more complex design at a higher level and Game Engines must
 be kept small and streamlined for efficiency at the low level which can be slow
 if the code must work with complex objects or structures.  As stated before in
-this books [Learning Philosophy](#philosophy) if there is any way I can improve
-your read of this material please let me know at the locations provided there.
+this books <a class="local" href="#philosophy">Learning Philosophy</a> if there
+is any way I can improve your read of this material please let me know at the
+locations provided there.
 
 <br>
 <br>
