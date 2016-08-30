@@ -5,3 +5,71 @@
 <br>
 ### Chapter 1 Section 1 - Varibles, Arrays, Loops and Logic
 
+The first thing you need to know about Javascript, or any language, is how to
+create and define _**variables**_.  A variable in Javascript is basically a
+name that refers to some value.  That value may be a **primitive value**, such
+as a _number_ or a _string_, or an _object_ - a grouping of one or more kinds
+of data such as numbers, text characters as in a _string_, program code, or even
+other objects.  The reason we use variables is because we need to do
+computations with things, and to do that we need to be able to refer to the
+_values_ associated with those things that we wish to perform computations on.
+ This is much easier to do if we can refer to those things by their _variable
+name_.  Variable names, like many other concepts we will encounter in
+programming, exist for the purpose of providing flexibility and making our job,
+as programmers, easier.  Below is a table for the kinds of variables, also known
+as _**variable types**_ that we have to work with in Javascript.
+
+<h5 id="table-1_1">Table 1.1</h5>
+|type      |example   |
+|:---------|:---------|
+|_number_  |`0, 1, 2, 1.38e37, -3, -2.15e-12`|
+|_string_  |`"Javascript", "word", "thing"`|
+|_object_  |`{}, []`|
+|_function_|`var aPlusB = function ( a, b ) { return a + b; }`|
+###### _Javascript variable types_
+
+The last type, _function_, is a bit more complicated.  We will talk about that
+one in section 1.2.  For now let us focus on the simpler kinds of variables,
+_number_, _string_, and _object_.
+
+The first and fundamentally most important type of variable is a _number_.  It
+may be hard to see at first, but everything imaginable in the world of
+programming is built on numbers, even the mysterious and complicated inner
+workings of the function in the table above, not the adding that it does, but
+the function itself, deep down inside the computer.  This is because numbers are
+the only thing that computers know how to do computations with.  In order to get
+started working with some numeric variables, let us see how a variable can be
+defined and given a value in Javascript.
+
+```
+var x = 5;
+```
+
+The use of the name, _x_, is simply conventional.  It is the first variable that
+we learn how to work with in pre-algebra, but the name of the variable could be
+any valid _identifier_.  In Javascript, variable names, or _identifiers_ may
+contain one or more alpha-numeric characters (a-z, A-Z, 0-9) and/or the
+characters "_" and "$" as long as the first character of the identifier does
+not start with a numeric character (0-9).  The first word of the above line of
+code, in programming one or more lines of code which perform a simple task is
+called a _statement_, is referred to as a _key word_.  A _key word_ in any
+programming language is a reserved word that can only be used by the program
+if it is used with correct grammar, or syntax, and cannot be used for anything
+other than its intended purpose in that language.  For example, I could not
+name a variable `var` because that would produce an error in my program.  So the
+above statement _declares_ the variable named _x_ and sets its value equal to
+_5_.  This kind of statement can be referred to in several ways, as a
+_declaration_, a _variable declaration_, or a _declaration and assignment_
+because the value _5_ is _assigned_ to the variable name _x_.
+
+The table
+
+<br>
+<br>
+|Back      |Forward   |
+|:---------|---------:|
+|[Back to Chapter 1](#chapter-1)|[On to Section 1.2](#chapter-1_2)|
+
+|          |
+|:--------:|
+|[Table of Contents](#TOC)
