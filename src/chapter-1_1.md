@@ -44,7 +44,7 @@ the only thing that computers know how to do computations with.  In order to get
 started working with some numeric variables, let us see how a variable can be
 defined and given a value in Javascript.
 
-```
+``` js
 var x = 5;
 var name = "Robert";
 var timesInSeconds = [ 9.81, 9.84, 9.92, 10.0, 10.32 ];
