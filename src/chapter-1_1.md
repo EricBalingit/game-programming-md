@@ -103,7 +103,7 @@ end of a sentence, the dot operator comes after the identifier for an object.
 is an example, which I will describe in detail, which demonstrates how arrays
 can be useful.
 
-```
+``` js
 // all recorded times
 var timesInSeconds = [ 9.81, 9.84, 9.92, 10.0, 10.32 ];
 
