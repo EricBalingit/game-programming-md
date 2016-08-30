@@ -28,12 +28,14 @@ when we consider their value as building blocks for other programs, tools for us
 to use or even as products that we can make a living from, then it becomes clear
 that organization is like a road map when you're in the middle of nowhere.
  Keeping code orgainzed can enable you to prioritize your goals and help keep
-you from getting lost as the sizes of your programming projects grow.
+you from getting lost as the sizes of your programming projects grow.  Also bear
+in mind that orgainization is a habit, that when well formed, will flow over
+into other aspects of ones life where it may also be very important.
 
 After we visit functions we will look at objects as another kind of container.
 Whereas functions are for containing code, objects may be used as a special kind
 of container that may contain anything we wish to build with our code.  The
-discussion on object in Chapter 1.3 will lead into Chapter 2 where we will talk
+discussion on objects in Chapter 1.3 will lead into Chapter 2 where we will talk
 about Object Oriented Programming.
 
 <br>
