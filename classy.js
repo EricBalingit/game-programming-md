@@ -160,7 +160,7 @@ function replaceRenderer(md, renderer) {
   };
 }
 
-classy = function (md) {
+function classy (md) {
   md.inline.ruler.push("classy", parse);
 
   // no-op
@@ -171,4 +171,8 @@ classy = function (md) {
   });
 };
 
-module.exports = classy;
+if ( "module" in this ) {
+    module.exports = classy;
+} else {
+    this.classy = classy;
+}
