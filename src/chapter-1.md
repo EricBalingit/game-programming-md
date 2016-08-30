@@ -20,7 +20,7 @@ One of the biggest challenges when learning a new subject is how to deal with
 all the new information that gets thrown at you and how to manage and organize
 that information.  As we learn to keep our programs ( the program "documents"
 that we write ) more organized so we can read and edit them more easily we will
-begin to see those documents as __**resources**__ that we can reuse, borrow
+begin to see those documents as _**resources**_ that we can reuse, borrow
 from, extend and share with others.  Organization is often viewed or treated as
 a lesser goal of managing information, documents or data, but in the context of
 programs as a _resource_, when we consider their value as building blocks for
