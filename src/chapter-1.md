@@ -10,11 +10,11 @@
 It can be difficult starting out when learning to program.  In this chapter we
 will start from the very bottom, learning about the most basic things you need
 to know about Javascript.  The first section, Chapter 1.1, covers variables,
-arrays and loops.  In section 1.2 we learn about the usefulness of functions
-to help organize code and make it more useable.  By "make it more useable" In
-mean, basically, code, the text that you write in the editor, is not only a
-program, but it is a document, a record, a place to store something that you'very
-written.  And it is also a resource.
+arrays, loops and logic.  In section 1.2 we learn about the usefulness of
+functions to help organize code and make it more useable.  By "make it more
+useable" I mean, basically, code, the text that you write in the editor, is not
+only a program, but it is a document, a record, a place to store something that
+you'very written.  And it is also a resource.
 
 One of the biggest challenges when learning a new subject is how to deal with
 all the new information that gets thrown at you and how to manage and organize

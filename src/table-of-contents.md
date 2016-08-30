@@ -9,7 +9,7 @@
 ### [Part 1 - Some (but Not All) Things Javascript](#chapter-1)
 
 1. #### [Just the Basics (Beginner)](#chapter-1)
-    1.1. [Varibles, Arrays and Loops](#chapter-1_1)  
+    1.1. [Varibles, Arrays, Loops and Logic](#chapter-1_1)  
     1.2. [The Purpose of Functions](#chapter-1_2)  
     1.3. [What are Objects and Why are they Useful?](#chapter-1_3)
 2. #### [Object Oriented Programming (Intermediate)](#chapter-2)
