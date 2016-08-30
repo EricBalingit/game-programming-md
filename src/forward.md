@@ -15,7 +15,7 @@ examples in each section with links to live examples that you can edit and play
 with.  Many thanks to all my friends on Khan Academy who are kind and gracious,
 helping and encouraging me and one another.  Keep on gaming everyone!
 
-<br>
+<br id="philosophy">
 ### Learning Philosophy
 Out of all of our endeavors, learning is perhaps the most important.  In each
 new subject that we choose to learn about, we all find that we are new,
@@ -55,7 +55,7 @@ on to Game Programming in Part 2, however keep in mind that advanced OOP is
 meant to aid in more complex design at a higher level and Game Engines must
 be kept small and streamlined for efficiency at the low level which can be slow
 if the code must work with complex objects or structures.  As stated before in
-this books [Learning Philosophy](#forward-1) if there is any way I can improve
+this books [Learning Philosophy](#philosophy) if there is any way I can improve
 your read of this material please let me know at the locations provided there.
 
 <br>

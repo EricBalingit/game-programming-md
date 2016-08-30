@@ -41,3 +41,7 @@ about Object Oriented Programming.
 |Back      |Forward   |
 |:---------|---------:|
 |[Back to Forward](#forward)|[On to Section 1.1](#chapter-1_1)|
+
+|          |
+|:--------:|
+|[Table of Contents](#TOC)
