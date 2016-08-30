@@ -43,26 +43,33 @@ defined and given a value in Javascript.
 
 ```
 var x = 5;
+var name = "Robert";
+var timesInSeconds = [ 9.81, 9.84, 9.92, 10.0, 10.32 ];
 ```
 
-The use of the name, _x_, is simply conventional.  It is the first variable that
-we learn how to work with in pre-algebra, but the name of the variable could be
-any valid _identifier_.  In Javascript, variable names, or _identifiers_ may
-contain one or more alpha-numeric characters (a-z, A-Z, 0-9) and/or the
-characters "_" and "$" as long as the first character of the identifier does
-not start with a numeric character (0-9).  The first word of the above line of
-code, in programming one or more lines of code which perform a simple task is
-called a _statement_, is referred to as a _key word_.  A _key word_ in any
-programming language is a reserved word that can only be used by the program
-if it is used with correct grammar, or syntax, and cannot be used for anything
-other than its intended purpose in that language.  For example, I could not
-name a variable `var` because that would produce an error in my program.  So the
-above statement _declares_ the variable named _x_ and sets its value equal to
-_5_.  This kind of statement can be referred to in several ways, as a
-_declaration_, a _variable declaration_, or a _declaration and assignment_
-because the value _5_ is _assigned_ to the variable name _x_.
+The use of the name, _x_, is simply conventional to use in examples.  It is the
+first variable that we learn how to work with in pre-algebra, but the name of
+the variable could be any valid _identifier_.  In Javascript, variable names,
+or _identifiers_ may contain one or more alpha-numeric characters (a-z, A-Z,
+0-9) and/or the characters "_" and "$" as long as the first character of the
+identifier does not start with a numeric character (0-9).  The first word of
+the above line of code, in programming one or more lines of code which perform a
+task is called a _statement_, is referred to as a _key word_.  A _key word_ in
+any programming language is a reserved word that can only be used by the program
+if it is used with correct grammar, or _syntax_, and cannot be used for anything
+other than its intended purpose in that language.  For example, I could not name
+a variable `var` because that would produce an error in my program.  So the
+above statements _declare_ variables named _x_, _name_ and _timeInSeconds_
+and gives each a value, _5_, _"Robert"_ and the array _[ 9.81, 9.84, 9.92, 10.0,
+10.32 ]_ respectively.  These kinds of statements can be referred to in several
+ways, as a _declarations_, _variable declarations_, or _declaration and
+assignment statements_ because the values are _assigned_ to the variable names
+when they are _declared_.
 
-The table
+You may wonder about the last identifier in the above code snippet.  Some of the
+letters are upper case and some are lower case.  This is another convention
+called _Camel Case_.  It is not a requirement, but merely a preference.  Some
+programmers like to use underscore instead like _time\_in\_seconds_.
 
 <br>
 <br>
