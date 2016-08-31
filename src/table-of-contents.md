@@ -16,7 +16,7 @@
     2.1. [So What is Object Oriented Programming Anyway?](#chapter-2_1)  
     2.2. [Classes vs Objects vs Object Classes - Describe, Define and Instatiate](#chapter-2_2)  
     2.3. [Ownership and the Prototype Chain](#chapter-2_3)  
-    2.4. [typeof vs instanceof](#chapter-2_4)
+    2.4. [Revisiting Primitives, typeof vs instanceof and Auto-Boxing](#chapter-2_4)
 3. #### [What's in a Name? Polymorphism, Inheritance and Normalization (Advanced)](#chapter-3)
     3.1. [So, Define Normal...](#chapter-3_1)  
     3.2. [The Chicken and the Egg: Polymorphic vs Normal Behavior, Which Comes First?](#chapter-3_2)  
