@@ -178,7 +178,7 @@ in the array `timeInSeconds`, to the variable named `averageTime`.
 > Retrieve the value in the variable named `averageTime` and hold onto it, now
 retrieve the value at the index of `i` in the varaible named `timeInSeconds`,
 now add that value to the other value you are holding and give the result back
-to the variable name `averageTime`.
+to the variable named `averageTime`.
 
 The second is closer to how the computer would actually interpret such code.
 Can you see how the description gets longer and more detailed the further away
