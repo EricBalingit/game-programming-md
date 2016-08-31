@@ -190,7 +190,7 @@ actually trying to do with the code that you give to it.  Everyone who programs,
 at some point, uses someone else's example and works with objects or structures
 that are unfamiliar.  If you are confused about what a piece of code is doing,
 ask!  <a class="external" href="http://stackoverflow.com/">Stack Overflow</a>
-is a great place to find answers to questions you may have or post questions
+is a great place to find answers to questions you may have or to post questions
 where the already provided answers do not exactly help with your specific
 question.
 
