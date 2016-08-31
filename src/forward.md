@@ -18,23 +18,23 @@ helping and encouraging me and one another.  Keep on gaming everyone!
 <br id="philosophy">
 ### Learning Philosophy
 Out of all of our endeavors, learning is perhaps the most important.  In each
-new subject that we choose to learn about, we all find that we are new,
-unacquainted and out of place at first.  But soon, with a few descriptions, some
-examples, experimentation and discovery we begin to harness the skills necessary
-to master the subject at hand.  This is true for all new endeavors and as such
-we are **all beginners** when we start something new.  For me personally,
-attempting to write a book is a new experience, something I have never done
-before.  So the title of this book is fitting for myself as well as it may be
-for you, the reader.
+new subject that we choose to learn, we all find that we are new, unacquainted
+and out of place at first.  But soon, with a few descriptions, some examples,
+experimentation and discovery we begin to harness the skills necessary to master
+the subject at hand.  This is true for all new endeavors and as such we are
+**all beginners** when we start something new.  For me personally, attempting to
+write a book is a new experience, something I have never done before.  So the
+title of this book is fitting for myself as well as it may be for you, the
+reader.
 
-Likewise the learning philosophy in this book
-is for _beginners_ like you and me.  I shall do my best to give as much
-explanation as is necessary to help you along with any concepts that may be new
-to you, but I will try NOT to give MORE information than is necessary so as not
-to confuse the reader ( as well as confusing myself ).  I may fall short of this
-goal on occasion and if I do, please let me know on the Khan Academy version of
-this book in the Tips and Thanks or file an issue on the github project ( this
-books archive ) at <a class="external" href="https://github.com/EricBalingit/game-programming-md">https://github.com/EricBalingit/game-programming-md</a>.
+Likewise the learning philosophy in this book is for _beginners_ like you and
+me.  I shall do my best to give as much explanation as is necessary to help you
+along with any concepts that may be new to you, but I will try NOT to give MORE
+information than is necessary so as not to confuse the reader ( as well as
+confusing myself ).  I may fall short of this goal on occasion and if I do,
+please let me know on the Khan Academy version of this book in the Tips and
+Thanks or file an issue on the github project ( this books archive ) at
+<a class="external" href="https://github.com/EricBalingit/game-programming-md">https://github.com/EricBalingit/game-programming-md</a>.
 If you need help with any of the material here or you are working on a game,
 feel free to contact me on <a class="external" href="https://www.khanacademy.org/profile/embalingit/">Khan Academy</a>
 or on <a class="external" href="http://stackoverflow.com/users/1321944/nolo?tab=profile">Stack Overflow</a>
