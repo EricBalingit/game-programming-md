@@ -136,6 +136,7 @@ averageTime = averageTime / timeInSeconds.length;
 ```
 ###### _Using Arrays to Process Data_
 
+<br>
 Without using an array we could have written the following:
 
 <h5 id="example-1_3">Example 1.3</h5>
@@ -155,16 +156,16 @@ large amounts of data as we move through this book.  For now, let us have
 another look at that odd looking `for ( blah; blah; blah )` thing and see what
 it all means.
 
-The complete structure in [example 1.2](#example-1_2) that begins with `for`,
-performs a bit of logic inside the parethesis, between `(` and `)`, and houses
-some code in curly brackets, between `{`, and `}`, is called a *_for loop_*. 
- Notice that it is **not** terminated with a semi-colon after the last `}`,
-which means that it is technically a _structure_ rather than a _statement_. 
- Statements do end with `;`.  The opening and closing curly braces are the
-beginning and end of the contained _code block_ of the loop.  The code block is
-run as many times as the logic evaluates to `true` inside the parenthesis.  The
-code that gets run `averageTime = averageTime + timeInSeconds [ i ];` is simpler
-enough.  What it says is:
+The complete structure in <a class="local" href="#example-1_2">example 1.2</a>
+that begins with `for`, performs a bit of logic inside the parethesis, between
+`(` and `)`, and houses some code in curly brackets, between `{`, and `}`, is
+called a *_for loop_*.  Notice that it is **not** terminated with a semi-colon
+after the last `}`, which means that it is technically a _structure_ rather than
+a _statement_.  Statements do end with `;`.  The opening and closing curly
+braces are the beginning and end of the contained _code block_ of the loop.  The
+code block is run as many times as the logic evaluates to `true` inside the
+parenthesis.  The code that gets run `averageTime = averageTime + timeInSeconds
+[ i ];` is simpler enough.  What it says is:
 
 > Assign the value of the sum, `averageTime` plus the value at the index, `i`,
 in the array `timeInSeconds`, to the variable named `averageTime`.
