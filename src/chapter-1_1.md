@@ -170,15 +170,15 @@ code block is run as many times as the logic evaluates to `true` inside the
 parenthesis.  The code that gets run `averageTime = averageTime + timeInSeconds
 [ i ];` is simpler enough.  What it says is:
 
-> Assign the value of the sum, `averageTime` plus the value at the index, `i`,
-in the array `timeInSeconds`, to the variable named `averageTime`.
+> "Assign the value of the sum, `averageTime` plus the value at the index, `i`,
+in the array `timeInSeconds`, to the variable named `averageTime`."
 
 <p class="no-indent">To put it another way, you could say:</p>
 
-> Retrieve the value in the variable named `averageTime` and hold onto it, now
+> "Retrieve the value in the variable named `averageTime` and hold onto it, now
 retrieve the value at the index of `i` in the varaible named `timeInSeconds`,
 now add that value to the other value you are holding and give the result back
-to the variable named `averageTime`.
+to the variable named `averageTime`."
 
 The second is closer to how the computer would actually interpret such code.
 Can you see how the description gets longer and more detailed the further away
