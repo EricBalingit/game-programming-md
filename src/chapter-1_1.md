@@ -11,21 +11,34 @@
 The first thing you need to know about Javascript, or any language, is how to
 create and define _**variables**_.  A variable in Javascript is basically a
 name that refers to some value.  That value may be a **primitive value**, such
-as a _number_ or a _string_, or an _object_ - a grouping of one or more kinds
-of data such as numbers, text characters as in a _string_, program code, or even
-other objects.  The reason we use variables is because we need to do
-computations with things, and to do that we need to be able to refer to the
+as a _number_, a _string_ or a _boolean_, or an _object_.  Objects are
+"groupings" of one or more kinds of data such as numbers in an array, text
+characters as in a _string_[^1], program code in the form of _functions_, or
+even other objects.  The reason we use variables is because we need to
+do computations with things, and to do that we need to be able to refer to the
 _values_ associated with those things that we wish to perform computations on.
  This is much easier to do if we can refer to those things by their _variable
 name_.  Variable names, like many other concepts we will encounter in
 programming, exist for the purpose of providing flexibility and making our job,
 as programmers, easier.  Below is a table for the kinds of variables, also known
-as _**variable types**_ that we have to work with in Javascript.
+as _**variable types**_, that we have to work with in Javascript.
+
+[^1]: Strings in Javascript are considered primitive data types due to their
+immutability under the hood.  Being _immutable_ means that once a string is
+declared and given a value, the underlying value never changes, even though
+strings may be put together, end-to-end, by _concatenation_.  When that happens
+the new string is not the same thing as the previous strings according to how
+Javascript works internally.  It is also worth noting that all primitive types
+in Javascript have an equivalent Object type that can be used to contain and
+operate on the primitive value.  Those Object types are built from the native
+classes Number, Boolean, and String.  More information about types will be
+provided in [Chapter 2.4](#chapter-2_4).
 
 <h5 id="table-1_1">Table 1.1</h5>
 |type      |example   |
 |:---------|:---------|
 |_number_  |`0, 1, 2, 1.38e37, -3, -2.15e-12`|
+|_boolean_ |`true, false`|
 |_string_  |`"Javascript", "word", "thing"`|
 |_object_  |`{}, []`|
 |_function_|`var aPlusB = function ( a, b ) { return a + b; }`|
@@ -44,11 +57,13 @@ the only thing that computers know how to do computations with.  In order to get
 started working with some numeric variables, let us see how a variable can be
 defined and given a value in Javascript.
 
+<h5 id="example-1_1">Example 1.1</h5>
 ``` js
 var x = 5;
 var name = "Robert";
 var timesInSeconds = [ 9.81, 9.84, 9.92, 10.0, 10.32 ];
 ```
+###### _Declaring and Assigning Variables_
 
 The use of the name, _x_, is simply conventional to use in examples.  It is the
 first variable that we learn how to work with in pre-algebra, but the name of
@@ -103,6 +118,7 @@ end of a sentence, the dot operator comes after the identifier for an object.
 is an example, which I will describe in detail, which demonstrates how arrays
 can be useful.
 
+<h5 id="example-1_2">Example 1.2</h5>
 ``` js
 // all recorded times
 var timesInSeconds = [ 9.81, 9.84, 9.92, 10.0, 10.32 ];
@@ -118,6 +134,57 @@ for ( var i = 0; i < timeInSeconds.length; i++ ) {
 // compute the average
 averageTime = averageTime / timeInSeconds.length;
 ```
+###### _Using Arrays to Process Data_
+
+Without using an array we could have written the following:
+
+<h5 id="example-1_3">Example 1.3</h5>
+``` js
+// compute the average time
+var averageTime = ( 9.81 + 9.84 + 9.92 + 10.0 + 10.32 ) / 5;
+```
+###### _Computing with Literal Values_
+
+This may look more concise, indeed it is only a single line of code as compared
+to the six lines above ( not including comments ), however, imagine that we
+have a **lot** of numbers, more than a hundered, or even more than a thousand.
+ It is not unreasonable to deal with that much data, even in a small program or
+game, and it is even nicer if your program can generate such data for you
+without you having to type any of it out.  We will discuss more ways of handling
+large amounts of data as we move through this book.  For now, let us have
+another look at that odd looking `for ( blah; blah; blah )` thing and see what
+it all means.
+
+The complete structure in [example 1.2](#example-1_2) that begins with `for`,
+performs a bit of logic inside the parethesis, between `(` and `)`, and houses
+some code in curly brackets, between `{`, and `}`, is called a *_for loop_*. 
+ Notice that it is **not** terminated with a semi-colon after the last `}`,
+which means that it is technically a _structure_ rather than a _statement_. 
+ Statements do end with `;`.  The opening and closing curly braces are the
+beginning and end of the contained _code block_ of the loop.  The code block is
+run as many times as the logic evaluates to `true` inside the parenthesis.  The
+code that gets run `averageTime = averageTime + timeInSeconds [ i ];` is simpler
+enough.  What it says is:
+
+> Assign the value of the sum, `averageTime` plus the value at the index, `i`,
+in the array `timeInSeconds`, to the variable named `averageTime`.
+
+To put it another way, you could say:
+
+> Retrieve the value in the variable named `averageTime` and hold onto it, now
+retrieve the value at the index of `i` in the varaible named `timeInSeconds`,
+now add that value to the other value you are holding and give the result back
+to the variable name `averageTime`.
+
+The second is closer to how the computer would actually interpret such code.
+Can you see how the description gets longer and more detailed the further away
+we get from the code that we have typed, and closer to how the computer actually
+sees what we have written?  This is important to consider when writing programs.
+Even at this very early stage of your education in programming, you should
+always try to keep in the back of your mind some notion of what the computer is
+actually trying to do with the code that you give to it.
+
+
 
 <br>
 <br>
