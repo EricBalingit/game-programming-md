@@ -170,7 +170,7 @@ parenthesis.  The code that gets run `averageTime = averageTime + timeInSeconds
 > Assign the value of the sum, `averageTime` plus the value at the index, `i`,
 in the array `timeInSeconds`, to the variable named `averageTime`.
 
-To put it another way, you could say:
+<p class="no-indent">To put it another way, you could say:</p>
 
 > Retrieve the value in the variable named `averageTime` and hold onto it, now
 retrieve the value at the index of `i` in the varaible named `timeInSeconds`,
