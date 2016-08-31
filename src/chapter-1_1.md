@@ -98,7 +98,7 @@ anyone who looks at it, most importantly for you several days, weeks or months
 after it was written.
 
 <br>
-#### Arrays Can Hold Lots of Things
+#### Arrays Can Hold Lots of Things, Loops Help with Heavy Lifting
 
 The array we looked at previously held several numeric values, but in principle,
 arrays in Javascript can hold any kind of value, as in any variable _type_ found
@@ -133,6 +133,9 @@ for ( var i = 0; i < timeInSeconds.length; i++ ) {
 
 // compute the average
 averageTime = averageTime / timeInSeconds.length;
+
+// display the result
+println ( "The average time is " + averageTime );
 ```
 ###### _Using Arrays to Process Data_
 
@@ -183,9 +186,19 @@ we get from the code that we have typed, and closer to how the computer actually
 sees what we have written?  This is important to consider when writing programs.
 Even at this very early stage of your education in programming, you should
 always try to keep in the back of your mind some notion of what the computer is
-actually trying to do with the code that you give to it.
+actually trying to do with the code that you give to it.  Everyone who programs,
+at some point, uses someone else's example and works with objects or structures
+that are unfamiliar.  If you are confused about what a piece of code is doing,
+ask!  <a class="external" href="http://stackoverflow.com/">Stack Overflow</a>
+is a great place to find answers to questions you may have or post questions
+where the already provided answers do not exactly help with your specific
+question.
+
+#### The Logic of Loops
 
 
+
+#### Say Hello to George Boole
 
 <br>
 <br>
