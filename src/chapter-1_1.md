@@ -9,7 +9,7 @@
 #### Variables in Javascript
 
 The first thing you need to know about Javascript, or any language, is how to
-create and define _**variables**_.  A variable in Javascript is basically a
+create and define _*variables*_.  A variable in Javascript is basically a
 name that refers to some value.  That value may be a **primitive value**, such
 as a _number_, a _string_ or a _boolean_, or an _object_.  Objects are
 "groupings" of one or more kinds of data such as numbers in an array, text
@@ -21,7 +21,7 @@ _values_ associated with those things that we wish to perform computations on.
 name_.  Variable names, like many other concepts we will encounter in
 programming, exist for the purpose of providing flexibility and making our job,
 as programmers, easier.  Below is a table for the kinds of variables, also known
-as _**variable types**_, that we have to work with in Javascript.
+as _*data types*_, that we have to work with in Javascript.
 
 [^1]: Strings in Javascript are considered primitive data types due to their
 immutability under the hood.  Being _immutable_ means that once a string is
@@ -104,11 +104,11 @@ The array we looked at previously held several numeric values, but in principle,
 arrays in Javascript can hold any kind of value, as in any variable _type_ found
 in <a class="local" href="#table-1_1">Table 1.1</a>.  Before we go on to examine
 much more about arrays, lets take a step forward just to visit an idea related
-to _objects_ and that is called *_properties_*.  Properties are things that are
+to _objects_ and that is called _*properties*_.  Properties are things that are
 associated with objects in a programming language.  We will go into more detail
 about that later, but for dealing with arrays, it helps to have a heads up on
 this idea.  The way that we access properties of objects in Javascript, and in
-most programming languages, is by using the *_dot operator_*.  Operators are
+most programming languages, is by using the _*dot operator*_.  Operators are
 basic symbols in a programming language, like symbols in math - typically single
 characters that perform a function.  We've seen at least one operator already
 and that is the _assignment_ operator, or `=`.  The dot operator is a dot, very
@@ -162,7 +162,7 @@ it all means.
 The complete structure in <a class="local" href="#example-1_2">example 1.2</a>
 that begins with `for`, performs a bit of logic inside the parethesis, between
 `(` and `)`, and houses some code in curly brackets, between `{`, and `}`, is
-called a *_for loop_*.  Notice that it is **not** terminated with a semi-colon
+called a _*for loop*_.  Notice that it is **not** terminated with a semi-colon
 after the last `}`, which means that it is technically a _structure_ rather than
 a _statement_.  Statements do end with `;`.  The opening and closing curly
 braces are the beginning and end of the contained _code block_ of the loop.  The
@@ -196,9 +196,86 @@ question.
 
 #### The Logic of Loops
 
+There are a few different kinds of loops in Javascript: `for(){}` loops ( called
+a "for loop", `while(){}` loops ( called a "while loop" ) and `do{}while()`
+loops ( called a "do loop" or a "do while loop".  Each type has a structure that
+contains both a set of parenthesis `()` and a set of curly braces `{}`.  The
+parenthesis contains the logic which determines _whether_ or _how many times_
+the loop should execute.  The curly braces contains the code that will be
+executed.  Whether or how many times the code is executed depends on the kind of
+loop as well as the logic inside the parenthesis.  There are only two things to
+remember to determine *whether* the code inside the loop will be executed.
+
+ - *`for`* loops and *`while`* loops execute _zero or more times depending on
+the logic inside the parenthesis_
+ - *`do while`* loops execute _one or more times depending on the logic inside
+the parenthesis_
+
+Did you catch the difference?  A `do while` loop always executes at least once,
+then may execute subsequently depending on the logic provided to it.  Both `for`
+and `while` loops may execute, or not depending on the logic provided to them.
+It seems like a subtle difference, but it is an important difference.  The most
+common type of loop that programmers use is the `for` loop _because it can
+capture the behavior of both of the other kinds of loops_.  However, in certain
+circumstances, the necessary logic may be simpler when using a `while` loop or
+a `do while` loop.  Here is the logic that controls the `for` loop in
+<a class="local" href="#example-1_2">Example 1.2</a> step by step:
+
+<h5 id="example-1_4">Example 1.4</h5>
+``` js
+for ( var i = 0; i < timeInSeconds.length; i++ ) {
+    averageTime = averageTime + timeInSeconds [ i ];
+}
+```
+<p class="no-indent">And we will focus on this:</p>
+``` js
+var i = 0; i < timeInSeconds.length; i++
+```
+###### _The logic of the `for` loop in Example 1.2_
+
+ 1. The first part, `var i=0;` is called the _*initialization statement*_.  It
+declares a variable `i` and gives it the value `0`.
+ 2. The second part, `i < timeInSeconds.length;` is called the _*conditional statement*_,
+this is what determines how many times the loop will execute, if at all.
+ 3. The third part, `i++` is the odd one.  As of this writing [wikipedia](https://en.wikipedia.org/wiki/For_loop#Traditional_for-loops)
+refers to this statement as the _[afterthought](https://en.wikipedia.org/wiki/Code_cleanup)_
+which links to something completely unrelated, until you get to the very bottom
+of the article and find [loop cleanup](https://en.wikipedia.org/wiki/Code_cleanup#Loop_Cleanup)
+which itself seems a dubious term.  Given that the first two parts in this 
+are less hazardous in appearance ( though every bit as important as the _*loop
+cleanup statement*_ ), we will handle the cleanup statement first.
+
+Note that the loop cleanup statement does not have a _terminating symbol_, `;`,
+like the others do.  The two plus signs, `++`, are called an _increment
+operator_.  What they do is _increment_ or simply add one to the value of the
+variable that they operate on, in this case `i`.  There are two kinds of
+increment operators, _*post increment*_ and _*pre increment*_.  This kind, `i++`
+is a _post increment operator_ and it is easy to remember because it appears
+after the variable ( post ), whereas the other kind would place the plus signs
+before the variable ( pre ).  For now, as far as this loop is concerned, we will
+simply consider that the effect that is happening to the variable `i` is
+equivalent to the statement `i = i + 1`, and I will give more details on
+increment and decrement, `--`, operators in the section in this chapter on
+Operators.
+
 
 
 #### Say Hello to George Boole
+
+The data type _boolean_ in <a class="local" href="#table-1_1">Table 1.1</a> is
+named after the founder of the system of mathematics that underlies all modern
+information technology, <a class="external" href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a>.
+ The system of mathematics that underlies information technology is called
+<a class="external" href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean Algebra</a>[^2].
+
+[^2]: Unfortunately Khan Academy does not have any videos or material
+specifically on Boolean Algebra.  I think it is important.  If you want to
+request this topic, vote and comment on this topic on
+[Khan Academy Zendesk #201470924-Discrete-Mathematics](https://khanacademy.zendesk.com/hc/en-us/community/posts/201470924-Discrete-Mathematics).
+Note that Discrete Mathematics is a subject which covers Boolean Algebra as well
+as other areas of math which are more advanced, college-level mathematics
+subjects.  Boolean Algebra is perfectly accessible to beginning programmers or
+anyone with a pre-algebra level mathathematics background.
 
 <br>
 <br>
