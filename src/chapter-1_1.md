@@ -168,7 +168,7 @@ a _statement_.  Statements do end with `;`.  The opening and closing curly
 braces are the beginning and end of the contained _code block_ of the loop.  The
 code block is run as many times as the logic evaluates to `true` inside the
 parenthesis.  The code that gets run `averageTime = averageTime + timeInSeconds
-[ i ];` is simpler enough.  What it says is:
+[ i ];` is simple enough.  What it says is:
 
 > "Assign the value of the sum, `averageTime` plus the value at the index, `i`,
 in the array `timeInSeconds`, to the variable named `averageTime`."
@@ -254,8 +254,9 @@ is a _post increment operator_ and it is easy to remember because it appears
 after the variable ( post ), whereas the other kind would place the plus signs
 before the variable ( pre ).  For now, as far as this loop is concerned, we will
 simply consider that the effect that is happening to the variable `i` is
-equivalent to the statement `i = i + 1`, and I will give more details on
-increment and decrement, `--`, operators in the section in this chapter on
+equivalent to the statement `i = i + 1`, similar to the code that the for loop
+executes which we discussed in the previous section.  I will give more details
+on increment and decrement, `--`, operators in the section in this chapter on
 Operators.
 
 
